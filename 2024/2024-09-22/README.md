@@ -2,7 +2,7 @@
 
 ## 活动介绍
 
-![zhangshanyou](../../../images/speakers/zhangshanyou.jpg)
+![zhangshanyou](../../images/speakers/zhangshanyou.jpg)
 
 讲师：**张善友**
 

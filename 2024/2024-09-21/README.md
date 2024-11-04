@@ -2,7 +2,7 @@
 
 ## 活动介绍
 
-![zhoujie](../../../images/speakers/zhoujie.jpg)
+![zhoujie](../../images/speakers/zhoujie.jpg)
 
 讲师：**周杰**
 

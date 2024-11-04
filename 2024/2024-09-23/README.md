@@ -2,7 +2,7 @@
 
 ## 活动介绍
 
-![liweihan](../../../images/speakers/liweihan.jpg)
+![liweihan](../../images/speakers/liweihan.jpg)
 
 讲师：**李卫涵**
 

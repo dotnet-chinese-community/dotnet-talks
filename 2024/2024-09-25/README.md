@@ -2,7 +2,7 @@
 
 ## 活动介绍
 
-![yaoshengwei](../../../images/speakers/yaoshengwei.jpg)
+![yaoshengwei](../../images/speakers/yaoshengwei.jpg)
 
 讲师：**姚圣伟**
 

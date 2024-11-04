@@ -2,7 +2,7 @@
 
 ## 活动介绍
 
-![yangshunjie](../../../images/speakers/yangshunjie.jpg)
+![yangshunjie](../../images/speakers/yangshunjie.jpg)
 
 讲师：**杨舜杰**
 
