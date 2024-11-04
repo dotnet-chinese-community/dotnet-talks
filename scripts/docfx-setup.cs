@@ -1,6 +1,20 @@
+const string tocFormat = """
+- name: {0}
+  href: {0}
+  homepage: ./{0}/index.md
+""";
+
 string[] folders = ["./2024"];
 
 ReadmeToIndex(Environment.CurrentDirectory);
+
+var rootTocPath = "./toc.yml";
+if (!File.Exists(rootTocPath))
+{
+	var navLines = folders.Select(dir => string.Format(tocFormat, new DirectoryInfo(dir).Name));
+	await File.WriteAllLinesAsync(rootTocPath, navLines, Encoding.UTF8);
+}
+
 foreach(var folder in folders)
 {
 	ReadmeToIndex(folder);
@@ -12,16 +26,15 @@ foreach(var folder in folders)
 	}
 	// generate toc.yml
 	var tocPath = Path.Combine(folder, "toc.yml");
-	var lines = dirList.Select(dir => $"""
-- name: {dir}
-  href: ./{dir}/
-""");
+	var lines = dirList.Select(dir => string.Format(tocFormat, dir));	
 	await File.WriteAllLinesAsync(tocPath, lines, Encoding.UTF8);
+	Console.WriteLine(File.ReadAllText(tocPath));
 }
 
 // replace READ.md => index.md
 static void ReadmeToIndex(string folder)
 {
+	return;
 	var readmePath = Path.Combine(folder, "README.md");
 	var indexPath = Path.Combine(folder, "index.md");
 	if (File.Exists(readmePath) && !File.Exists(indexPath))

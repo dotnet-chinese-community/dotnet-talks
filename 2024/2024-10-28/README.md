@@ -19,4 +19,4 @@
 - [活动介绍](https://mp.weixin.qq.com/s?__biz=MzA3NTU4NjY3Mw==&mid=2247498780&idx=1&sn=ef43ffe9230c27c784ab22c6d687800b&chksm=9e4556cadd8e3e577f249064cc01cff465138f57db6d249d446b0087c3b3f60126dabe453b48&scene=126&sessionid=1730736586#rd)
 - [视频回放](https://www.bilibili.com/video/BV1RoSvYsEjv/)
 - [讲师 Github](https://github.com/JusterZhu)
-- [PPT](.NET9客户端应用技术新特性.pdf)
+- [PPT](./客户端应用技术新特性.pdf)
