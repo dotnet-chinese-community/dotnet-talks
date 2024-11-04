@@ -26,7 +26,7 @@ foreach(var folder in folders)
 	}
 	// generate toc.yml
 	var tocPath = Path.Combine(folder, "toc.yml");
-	var lines = dirList.Select(dir => string.Format(tocFormat, dir));	
+	var lines = dirList.Order().Select(dir => string.Format(tocFormat, dir));	
 	await File.WriteAllLinesAsync(tocPath, lines, Encoding.UTF8);
 	Console.WriteLine(File.ReadAllText(tocPath));
 }
