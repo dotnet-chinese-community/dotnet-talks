@@ -34,7 +34,6 @@ foreach(var folder in folders)
 // replace READ.md => index.md
 static void ReadmeToIndex(string folder)
 {
-	return;
 	var readmePath = Path.Combine(folder, "README.md");
 	var indexPath = Path.Combine(folder, "index.md");
 	if (File.Exists(readmePath) && !File.Exists(indexPath))
