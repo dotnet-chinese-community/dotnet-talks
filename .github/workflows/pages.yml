@@ -23,10 +23,13 @@ jobs:
         with:
           dotnet-version: "8.0.x"
       - name: install tools
-        run: "dotnet tool install -g docfx"
+        run: |
+          dotnet tool install -g docfx
+          dotnet tool install -g dotnet-execute
       - name: prepare for build
         run: |
           mv ./README.md ./index.md
+          dotnet-exec ./scripts/docfx-setup.cs
       - name: Build docs
         run: "docfx ./docfx.json"
       - name: Upload artifact
