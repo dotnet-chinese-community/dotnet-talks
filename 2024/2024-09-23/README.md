@@ -16,4 +16,5 @@ iHerb 软件开发工程师，微软 MVP
 
 - [活动介绍](https://mp.weixin.qq.com/s?__biz=MzA3NTU4NjY3Mw==&mid=2247498501&idx=1&sn=dcd96845717a3043da6ddb2857e49472&chksm=9eed4f381bdec36c4d74200870ac1327e02282f3b299f82aa0cf7cbb091cbfcfb034dc469041&scene=126&sessionid=1730733550#rd)
 - [视频回放](https://www.bilibili.com/video/BV1PZsaeDEcx/)
+- [ppt](./CSharp13NewFeatures.pdf)
 - [讲师 Github](https://github.com/WeihanLi)
