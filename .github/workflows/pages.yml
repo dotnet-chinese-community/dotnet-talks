@@ -26,11 +26,15 @@ jobs:
         run: |
           dotnet tool install -g docfx
           dotnet tool install -g dotnet-execute
-      - name: prepare for build
+          dotnet tool list -g
+      - name: pre-docfx
         run: |
           dotnet-exec ./scripts/docfx-setup.cs
       - name: Build docs
         run: "docfx ./docfx.json"
+      - name: post-docfx
+        run: |
+          dotnet-exec ./scripts/docfx-cleanup.cs
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
