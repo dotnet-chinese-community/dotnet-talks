@@ -8,7 +8,7 @@ dotnet talks 系列活动资料
 
 关注微信公众号 `MSReactor` 及时获取最新更新信息，也可以关注视频号 `MSReactor` 或者 Bilibili `微软Reactor_SH` 查看视频回放
 
-<img src="./images/wechat-qrcode.jpg" alt="MSReactor 公众号" style="max-width:300px;" />
+<img src="./images/wechat-qrcode.jpg" alt="MSReactor 公众号" style="width:300px;" />
 
 ## Sessions
 
