@@ -32,9 +32,6 @@ jobs:
           dotnet-exec ./scripts/docfx-setup.cs
       - name: Build docs
         run: "docfx ./docfx.json"
-      - name: post-docfx
-        run: |
-          dotnet-exec ./scripts/docfx-cleanup.cs
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
