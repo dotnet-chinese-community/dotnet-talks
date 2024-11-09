@@ -15,5 +15,5 @@
 ## 更多
 
 - [活动介绍](https://mp.weixin.qq.com/s/DPHCjK5jB7Qeihoj2NpQkA)
-- 视频回放（待更新）
+- [视频回放](https://www.bilibili.com/video/BV1vfDRYUE7u/)
 - [讲师 Github](https://github.com/rabbitism)
