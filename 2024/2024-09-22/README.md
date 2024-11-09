@@ -18,4 +18,5 @@
 
 - [活动介绍](https://mp.weixin.qq.com/s?__biz=MzA3NTU4NjY3Mw==&mid=2247498474&idx=1&sn=0bb280750d3c162a233b84c9829172d5&chksm=9ef65b20c1281db42b12ebda8d2929d8da356f17ffbeccbed4b460ee5c755be7b5a48ddf7c8c&scene=126&sessionid=1730733550#rd)
 - [视频回放](https://www.bilibili.com/video/BV1X5shecEeE/)
+- [PPT](./AI-dotnet9.pdf)
 - [讲师 Github](https://github.com/geffzhang)
