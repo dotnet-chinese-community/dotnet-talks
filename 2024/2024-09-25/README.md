@@ -15,3 +15,4 @@
 - [活动介绍](https://mp.weixin.qq.com/s?__biz=MzA3NTU4NjY3Mw==&mid=2247498501&idx=2&sn=60ec2939addbabe560038d76eac427f7&chksm=9edf9a27324a70c50cc7dc984c687cfa992ebc663aad7875ccc8df983ccd3ad1d95b5657ccfd&scene=126&sessionid=1730733550#rd)
 - [视频回放](https://www.bilibili.com/video/BV1QExNexEX6/)
 - [讲师 Github](https://github.com/JaneConan)
+- [PPT](./NativeAOT-NewBreakThrough-dotnet9.pdf)
