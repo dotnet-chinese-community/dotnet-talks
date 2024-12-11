@@ -32,6 +32,12 @@ jobs:
           dotnet-exec ./scripts/docfx-setup.cs
       - name: Build docs
         run: "docfx ./docfx.json"
+      - name: cloudflare-pages
+        uses: cloudflare/wrangler-action@v3
+        with:
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          command: pages deploy _site --project-name=dotnet-chinese-community-talks
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
