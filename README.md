@@ -19,3 +19,4 @@ dotnet talks 系列活动资料
 ## Links
 
 - Bilibili 视频回放：<https://space.bilibili.com/483888821/channel/collectiondetail?sid=3883717>
+- GitHub Repo: <https://github.com/dotnet-chinese-community/dotnet-talks>
