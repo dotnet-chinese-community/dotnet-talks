@@ -1,10 +1,14 @@
+#! /usr/bin/env dotnet
+
+using System.Text;
+
 const string tocFormat = """
 - name: {0}
   href: {0}
   homepage: ./{0}/index.md
 """;
 
-string[] folders = ["./2024"];
+string[] folders = ["./2024", "./2025"];
 
 ReadmeToIndex(Environment.CurrentDirectory);
 var rootTocPath = "./toc.yml";
