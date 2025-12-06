@@ -1,0 +1,206 @@
+[
+    {
+        "topic": "解析 .NET 9 基础库的新特性",
+        "description": "拆解 .NET 9 基础库在 Base64Url、集合优化、BinaryFormatter 移除以及加密功能等方面的更新，帮助开发者快速吸收这些变化带来的性能与安全收益。",
+        "date": "2024-09-21",
+        "speakerName": "周杰",
+        "speakerTitle": "微软最有价值专家，资深架构师",
+        "speakerAvatar": "images/speakers/zhoujie.jpg",
+        "speakerDescription": ".NET 爱好者，拥有多年前后端、大数据、编译器、AI、图像与视频渲染等实战经验，是《.NET骚操作》作者及 sdcb 等开源项目的维护者。",
+        "speakerGithub": "https://github.com/sdcb",
+        "recordingUrl": "https://www.bilibili.com/video/BV1uBtUeJEUT/",
+        "links": [
+            {
+                "title": "活动介绍",
+                "url": "https://mp.weixin.qq.com/s?__biz=MzA3NTU4NjY3Mw==&mid=2247498447&idx=2&sn=59ef18f3d1ecc809774d029f2c9a9a6f&chksm=9eb0bbb9505900bf6f5227a7a5325fdf870cf71a4ae3c148bd47a143ea5ebce98bde31027f85&scene=126&sessionid=1730731357#rd"
+            },
+            {
+                "title": ".NET 9 更新示例代码",
+                "url": "https://github.com/sdcb/blog-data/tree/master/2024/dotnet9-libs"
+            }
+        ],
+        "tags": [
+            ".NET 9",
+            "BCL",
+            "Performance"
+        ]
+    },
+    {
+        "topic": "拥抱 AI 的 .NET 9",
+        "description": "回顾 .NET 社区一年在 AI 领域的积累，展示 .NET 9 如何通过更开放的云原生与智能化能力帮助团队构建智能应用。",
+        "date": "2024-09-22",
+        "speakerName": "张善友",
+        "speakerTitle": "微软最有价值专家、腾讯云 TVP、华为云 HCDE、广东智用人工智能应用研究院 CTO",
+        "speakerAvatar": "images/speakers/zhangshanyou.jpg",
+        "speakerDescription": "从事 .NET 技术 23 年，运营多个 .NET 与 AI 社区，连续 19 年荣获微软 MVP，并活跃于 Dapr、Semantic Kernel 等开源生态。",
+        "speakerGithub": "https://github.com/geffzhang",
+        "recordingUrl": "https://www.bilibili.com/video/BV1X5shecEeE/",
+        "links": [
+            {
+                "title": "活动介绍",
+                "url": "https://mp.weixin.qq.com/s?__biz=MzA3NTU4NjY3Mw==&mid=2247498474&idx=1&sn=0bb280750d3c162a233b84c9829172d5&chksm=9ef65b20c1281db42b12ebda8d2929d8da356f17ffbeccbed4b460ee5c755be7b5a48ddf7c8c&scene=126&sessionid=1730733550#rd"
+            },
+            {
+                "title": "PPT",
+                "url": "https://github.com/dotnet-chinese-community/dotnet-talks/blob/main/2024/2024-09-22/AI-dotnet9.pdf"
+            }
+        ],
+        "tags": [
+            ".NET 9",
+            "AI",
+            "Cloud Native"
+        ]
+    },
+    {
+        "topic": ".NET 9 随之而来的 C# 13 更新",
+        "description": "梳理 C# 13 在语法、语言特性与开发体验上的提升，以及它们如何与 .NET 9 协作提升生产力。",
+        "date": "2024-09-23",
+        "speakerName": "李卫涵",
+        "speakerTitle": "iHerb 软件开发工程师，微软 MVP",
+        "speakerAvatar": "images/speakers/liweihan.jpg",
+        "speakerDescription": ".NET 开源贡献者、“amazingdotnet” 公众号作者，长期分享 C#/.NET 最佳实践。",
+        "speakerGithub": "https://github.com/WeihanLi",
+        "recordingUrl": "https://www.bilibili.com/video/BV1PZsaeDEcx/",
+        "links": [
+            {
+                "title": "活动介绍",
+                "url": "https://mp.weixin.qq.com/s?__biz=MzA3NTU4NjY3Mw==&mid=2247498501&idx=1&sn=dcd96845717a3043da6ddb2857e49472&chksm=9eed4f381bdec36c4d74200870ac1327e02282f3b299f82aa0cf7cbb091cbfcfb034dc469041&scene=126&sessionid=1730733550#rd"
+            },
+            {
+                "title": "PPT",
+                "url": "https://github.com/dotnet-chinese-community/dotnet-talks/blob/main/2024/2024-09-23/CSharp13NewFeatures.pdf"
+            }
+        ],
+        "tags": [
+            ".NET 9",
+            "C# 13",
+            "Language Features"
+        ]
+    },
+    {
+        "topic": ".NET 9 AOT 的突破",
+        "description": "解析 .NET 9 在 NativeAOT 方面的新能力、适用场景及在国产化项目中的落地经验。",
+        "date": "2024-09-25",
+        "speakerName": "姚圣伟",
+        "speakerTitle": "微软 Insider Dev Tour China、.NET Conf China 云原生专场讲师",
+        "speakerAvatar": "images/speakers/yaoshengwei.jpg",
+        "speakerDescription": "盛派开发者社区主创、Ant Design Blazor 贡献者，中国 DevOps 社区天津核心组织者，热衷分享可落地的新技术。",
+        "speakerGithub": "https://github.com/JaneConan",
+        "recordingUrl": "https://www.bilibili.com/video/BV1QExNexEX6/",
+        "links": [
+            {
+                "title": "活动介绍",
+                "url": "https://mp.weixin.qq.com/s?__biz=MzA3NTU4NjY3Mw==&mid=2247498501&idx=2&sn=60ec2939addbabe560038d76eac427f7&chksm=9edf9a27324a70c50cc7dc984c687cfa992ebc663aad7875ccc8df983ccd3ad1d95b5657ccfd&scene=126&sessionid=1730733550#rd"
+            },
+            {
+                "title": "PPT",
+                "url": "https://github.com/dotnet-chinese-community/dotnet-talks/blob/main/2024/2024-09-25/NativeAOT-NewBreakThrough-dotnet9.pdf"
+            }
+        ],
+        "tags": [
+            ".NET 9",
+            "Native AOT",
+            "Performance"
+        ]
+    },
+    {
+        "topic": ".NET 9 分布式 Web 全栈开发",
+        "description": "介绍 Blazor WebApp 与 .NET Aspire 在 .NET 9 下的分布式全栈能力，展示如何构建跨平台 Web 解决方案。",
+        "date": "2024-09-28",
+        "speakerName": "杨舜杰",
+        "speakerTitle": "微软最有价值专家",
+        "speakerAvatar": "images/speakers/yangshunjie.jpg",
+        "speakerDescription": "AntDesign Blazor 组件库作者，Blazor 中文社区发起人，专注于 Web 全栈与分布式开发。",
+        "speakerGithub": "https://github.com/ElderJames",
+        "recordingUrl": "https://www.bilibili.com/video/BV1BgxreBE1f/",
+        "links": [
+            {
+                "title": "活动介绍",
+                "url": "https://mp.weixin.qq.com/s?__biz=MzA3NTU4NjY3Mw==&mid=2247498511&idx=1&sn=15ce2c92ee5f862a74cad9f292c7872b&chksm=9edcfb1583189f3aa6788d5e6c737744b2bec136ab23795035463f52e9898cb8a04f20f2fa38&scene=126&sessionid=1730735332#rd"
+            }
+        ],
+        "tags": [
+            ".NET 9",
+            "Blazor",
+            ".NET Aspire"
+        ]
+    },
+    {
+        "topic": ".NET 9 客户端应用技术新特性",
+        "description": "聚焦 .NET 9 在 .NET MAUI、WPF、WinForms 等客户端技术的新特性与开发者体验提升。",
+        "date": "2024-10-28",
+        "speakerName": "朱震",
+        "speakerTitle": "微软最有价值专家，GeneralUpdate 开源项目作者",
+        "speakerAvatar": "images/speakers/zhuzhen.jpg",
+        "speakerDescription": "长期深耕 .NET 客户端技术，关注多平台应用的工程效率与质量。",
+        "speakerGithub": "https://github.com/JusterZhu",
+        "recordingUrl": "https://www.bilibili.com/video/BV1RoSvYsEjv/",
+        "links": [
+            {
+                "title": "活动介绍",
+                "url": "https://mp.weixin.qq.com/s?__biz=MzA3NTU4NjY3Mw==&mid=2247498780&idx=1&sn=ef43ffe9230c27c784ab22c6d687800b&chksm=9e4556cadd8e3e577f249064cc01cff465138f57db6d249d446b0087c3b3f60126dabe453b48&scene=126&sessionid=1730736586#rd"
+            },
+            {
+                "title": "PPT",
+                "url": "https://github.com/dotnet-chinese-community/dotnet-talks/blob/main/2024/2024-10-28/%E5%AE%A2%E6%88%B7%E7%AB%AF%E5%BA%94%E7%94%A8%E6%8A%80%E6%9C%AF%E6%96%B0%E7%89%B9%E6%80%A7.pdf"
+            }
+        ],
+        "tags": [
+            ".NET 9",
+            ".NET MAUI",
+            "Desktop"
+        ]
+    },
+    {
+        "topic": "实战 Avalonia Headless 测试",
+        "description": "展示如何借助 Avalonia Headless 平台为 UI 交互编写功能性测试，提升跨平台客户端的可靠性。",
+        "date": "2024-11-05",
+        "speakerName": "董彬",
+        "speakerTitle": "微软 MVP，Avalonia 中文社区主理人，Ursa 开源项目作者",
+        "speakerAvatar": "images/speakers/dongbin.jpg",
+        "speakerDescription": "长期推动 Avalonia 社区建设，专注跨平台 UI 工程实践。",
+        "speakerGithub": "https://github.com/rabbitism",
+        "recordingUrl": "https://www.bilibili.com/video/BV1vfDRYUE7u/",
+        "links": [
+            {
+                "title": "活动介绍",
+                "url": "https://mp.weixin.qq.com/s/DPHCjK5jB7Qeihoj2NpQkA"
+            }
+        ],
+        "tags": [
+            "Avalonia",
+            "Testing",
+            "UI Automation"
+        ]
+    },
+    {
+        "topic": ".NET Talks - .NET AI 模板脚手架：加速 MCP 开发的利器",
+        "description": "解析微软 .NET AI 模板如何简化 MCP 与 AI 应用开发，覆盖搭建流程、最佳实践与模板新特性。",
+        "date": "2025-08-18",
+        "speakerName": "姚圣伟",
+        "speakerTitle": "微软 MVP，Avalonia 中文社区主理人，Ursa 开源项目作者",
+        "speakerAvatar": "images/speakers/yaoshengwei.jpg",
+        "speakerDescription": "热衷于国产化场景与新技术推广，活跃在云原生与桌面技术社区。",
+        "speakerGithub": "https://github.com/JaneConan",
+        "recordingUrl": "https://www.bilibili.com/video/BV17keMzxE6v/",
+        "links": [
+            {
+                "title": "活动介绍",
+                "url": "https://mp.weixin.qq.com/s/CKh9t2Ag7Ouzagax_ns9oA"
+            },
+            {
+                "title": "视频回放 P2",
+                "url": "https://www.bilibili.com/video/BV1CnYXzsECG/"
+            },
+            {
+                "title": ".NET AI 模板文档",
+                "url": "https://learn.microsoft.com/en-us/dotnet/ai/quickstarts/ai-templates/?wt.mc_id=3reg_webpage_reactor"
+            }
+        ],
+        "tags": [
+            ".NET AI",
+            "MCP",
+            "Templates"
+        ]
+    }
+]

@@ -1,0 +1,78 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://dotnet-chinese-community.org/schemas/topics.schema.json",
+  "title": "Talk Topic Schema",
+  "type": "object",
+  "required": [
+    "topic",
+    "description",
+    "date",
+    "speakerName",
+    "speakerTitle",
+    "speakerAvatar",
+    "recordingUrl",
+    "links"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "topic": {
+      "type": "string",
+      "minLength": 1
+    },
+    "description": {
+      "type": "string",
+      "minLength": 1
+    },
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "speakerName": {
+      "type": "string",
+      "minLength": 1
+    },
+    "speakerTitle": {
+      "type": "string",
+      "minLength": 1
+    },
+    "speakerAvatar": {
+      "type": "string",
+      "nullable": true
+    },
+    "speakerDescription": {
+      "type": "string",
+      "minLength": 1,
+      "nullable": true
+    },
+    "speakerGithub": {
+      "type": "string",
+      "format": "uri",
+      "nullable": true
+    },
+    "recordingUrl": {
+      "type": "string",
+      "format": "uri"
+    },
+    "links": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["title", "url"],
+        "additionalProperties": false,
+        "properties": {
+          "title": { "type": "string", "minLength": 1 },
+          "url": { "type": "string", "format": "uri" }
+        }
+      }
+    },
+    "tags": {
+        "type": "array",
+        "items": {
+            "type": "string",
+            "minLength": 1
+        },
+        "nullable": true
+    }
+  }
+}
