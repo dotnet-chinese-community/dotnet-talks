@@ -26,7 +26,7 @@
     "globalMetadata": {
       "_appName": "dotnet-talks",
       "_appTitle": ".NET Talks",
-      "_appLogoPath": "images/dotnet-logo.svg",
+      // "_appLogoPath": "images/dotnet-logo.svg",
       "_appFaviconPath": "images/favicon.ico",
       "_enableSearch": true,
       "pdf": false
