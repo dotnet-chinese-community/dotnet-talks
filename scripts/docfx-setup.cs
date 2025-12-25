@@ -1,4 +1,4 @@
-#! /usr/bin/env dotnet
+#!/usr/bin/env dotnet
 
 using System.Text;
 
