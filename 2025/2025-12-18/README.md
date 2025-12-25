@@ -17,3 +17,4 @@
 - [活动介绍](https://mp.weixin.qq.com/s/Dm2HK0WJMrFZmz_BESksKQ)
 - [视频回放](https://www.bilibili.com/video/BV17keMzxE6v/)
 - [讲师 Github](https://github.com/sheng-jie)
+- [PPT](./dotnet-AI技术全景解密.pdf)
