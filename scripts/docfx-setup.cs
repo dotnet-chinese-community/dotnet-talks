@@ -8,7 +8,7 @@ const string tocFormat = """
   homepage: ./{0}/index.md
 """;
 
-string[] folders = ["./2024", "./2025"];
+string[] folders = ["./2024", "./2025", "./2026"];
 
 ReadmeToIndex(Environment.CurrentDirectory);
 var rootTocPath = "./toc.yml";
@@ -33,7 +33,7 @@ foreach(var folder in folders)
     await File.WriteAllLinesAsync(tocPath, lines, Encoding.UTF8);
 }
 
-// replace READ.md => index.md
+// replace README.md => index.md
 static void ReadmeToIndex(string folder)
 {
     var readmePath = Path.Combine(folder, "README.md");
