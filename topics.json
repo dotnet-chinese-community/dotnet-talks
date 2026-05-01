@@ -1,19 +1,16 @@
 [
     {
         "topic": "解析 .NET 9 基础库的新特性",
-        "description": "拆解 .NET 9 基础库在 Base64Url、集合优化、BinaryFormatter 移除以及加密功能等方面的更新，帮助开发者快速吸收这些变化带来的性能与安全收益。",
+        "description": "深入解析 .NET 9 基础库的新特性。这包括 Base64Url 类的引入、集合类型优化、BinaryFormatter 的移除以及加密功能的拓展。通过实例和详细分析，我们帮助开发者快速适应和应用这些更新，从而提升应用性能和安全性。",
         "date": "2024-09-21",
         "speakerName": "周杰",
         "speakerTitle": "微软最有价值专家，资深架构师",
         "speakerAvatar": "images/speakers/zhoujie.jpg",
-        "speakerDescription": ".NET 爱好者，拥有多年前后端、大数据、编译器、AI、图像与视频渲染等实战经验，是《.NET骚操作》作者及 sdcb 等开源项目的维护者。",
+        "speakerDescription": "有多年前后端、大数据、编译器、AI、计算机视觉、图像处理、视频渲染等经验，.NET 爱好者，写有博客《.NET骚操作》，开源项目：<https://github.com/sdcb> ，立志能为 .NET 成为各方面第一等公民作出贡献。",
         "speakerGithub": "https://github.com/sdcb",
+        "introUrl": "https://mp.weixin.qq.com/s?__biz=MzA3NTU4NjY3Mw==&mid=2247498447&idx=2&sn=59ef18f3d1ecc809774d029f2c9a9a6f&chksm=9eb0bbb9505900bf6f5227a7a5325fdf870cf71a4ae3c148bd47a143ea5ebce98bde31027f85&scene=126&sessionid=1730731357#rd",
         "recordingUrl": "https://www.bilibili.com/video/BV1uBtUeJEUT/",
         "links": [
-            {
-                "title": "活动介绍",
-                "url": "https://mp.weixin.qq.com/s?__biz=MzA3NTU4NjY3Mw==&mid=2247498447&idx=2&sn=59ef18f3d1ecc809774d029f2c9a9a6f&chksm=9eb0bbb9505900bf6f5227a7a5325fdf870cf71a4ae3c148bd47a143ea5ebce98bde31027f85&scene=126&sessionid=1730731357#rd"
-            },
             {
                 "title": ".NET 9 更新示例代码",
                 "url": "https://github.com/sdcb/blog-data/tree/master/2024/dotnet9-libs"
@@ -30,21 +27,13 @@
         "description": "回顾 .NET 社区一年在 AI 领域的积累，展示 .NET 9 如何通过更开放的云原生与智能化能力帮助团队构建智能应用。",
         "date": "2024-09-22",
         "speakerName": "张善友",
-        "speakerTitle": "微软最有价值专家、腾讯云 TVP、华为云 HCDE、广东智用人工智能应用研究院 CTO",
+        "speakerTitle": "微软最有价值专家、腾讯云 TVP、华为云 HCDE、广东智用人工智能应用研究院有限公司 CTO",
         "speakerAvatar": "images/speakers/zhangshanyou.jpg",
-        "speakerDescription": "从事 .NET 技术 23 年，运营多个 .NET 与 AI 社区，连续 19 年荣获微软 MVP，并活跃于 Dapr、Semantic Kernel 等开源生态。",
+        "speakerDescription": "从事 .NET 技术开发二十三年，认证 CKAD 专家， 曾在腾讯工作12年，2018年创立深圳友浩达科技，专注于云原生和工业物联网解决方案落地。目前在广东智用人工智能应用研究院担任工业&社区 CTO。业余积极参与运营 .NET 技术社区、 Dapr 中文社区、Semantic Kernel 中文社区 以及相关开源项目，运营微信公众号“dotnet跨平台” 和 “新一代智能应用“。荣获连任19次微软最有价值专家 MVP，6届华为云 HCDE，6届腾讯云最有价值专家 TVP。",
         "speakerGithub": "https://github.com/geffzhang",
+        "slideFileName": "AI-dotnet9.pdf",
+        "introUrl": "https://mp.weixin.qq.com/s?__biz=MzA3NTU4NjY3Mw==&mid=2247498474&idx=1&sn=0bb280750d3c162a233b84c9829172d5&chksm=9ef65b20c1281db42b12ebda8d2929d8da356f17ffbeccbed4b460ee5c755be7b5a48ddf7c8c&scene=126&sessionid=1730733550#rd",
         "recordingUrl": "https://www.bilibili.com/video/BV1X5shecEeE/",
-        "links": [
-            {
-                "title": "活动介绍",
-                "url": "https://mp.weixin.qq.com/s?__biz=MzA3NTU4NjY3Mw==&mid=2247498474&idx=1&sn=0bb280750d3c162a233b84c9829172d5&chksm=9ef65b20c1281db42b12ebda8d2929d8da356f17ffbeccbed4b460ee5c755be7b5a48ddf7c8c&scene=126&sessionid=1730733550#rd"
-            },
-            {
-                "title": "PPT",
-                "url": "https://github.com/dotnet-chinese-community/dotnet-talks/blob/main/2024/2024-09-22/AI-dotnet9.pdf"
-            }
-        ],
         "tags": [
             ".NET 9",
             "AI",
@@ -58,19 +47,11 @@
         "speakerName": "李卫涵",
         "speakerTitle": "iHerb 软件开发工程师，微软 MVP",
         "speakerAvatar": "images/speakers/liweihan.jpg",
-        "speakerDescription": ".NET 开源贡献者、“amazingdotnet” 公众号作者，长期分享 C#/.NET 最佳实践。",
+        "speakerDescription": ".NET 开源开发者贡献者，内容创作者，“amazingdotnet” 微信公众号作者",
         "speakerGithub": "https://github.com/WeihanLi",
+        "slideFileName": "CSharp13NewFeatures.pdf",
+        "introUrl": "https://mp.weixin.qq.com/s?__biz=MzA3NTU4NjY3Mw==&mid=2247498501&idx=1&sn=dcd96845717a3043da6ddb2857e49472&chksm=9eed4f381bdec36c4d74200870ac1327e02282f3b299f82aa0cf7cbb091cbfcfb034dc469041&scene=126&sessionid=1730733550#rd",
         "recordingUrl": "https://www.bilibili.com/video/BV1PZsaeDEcx/",
-        "links": [
-            {
-                "title": "活动介绍",
-                "url": "https://mp.weixin.qq.com/s?__biz=MzA3NTU4NjY3Mw==&mid=2247498501&idx=1&sn=dcd96845717a3043da6ddb2857e49472&chksm=9eed4f381bdec36c4d74200870ac1327e02282f3b299f82aa0cf7cbb091cbfcfb034dc469041&scene=126&sessionid=1730733550#rd"
-            },
-            {
-                "title": "PPT",
-                "url": "https://github.com/dotnet-chinese-community/dotnet-talks/blob/main/2024/2024-09-23/CSharp13NewFeatures.pdf"
-            }
-        ],
         "tags": [
             ".NET 9",
             "C# 13",
@@ -82,21 +63,13 @@
         "description": "解析 .NET 9 在 NativeAOT 方面的新能力、适用场景及在国产化项目中的落地经验。",
         "date": "2024-09-25",
         "speakerName": "姚圣伟",
-        "speakerTitle": "微软 Insider Dev Tour China、.NET Conf China 云原生专场讲师",
+        "speakerTitle": "在职开发者",
         "speakerAvatar": "images/speakers/yaoshengwei.jpg",
-        "speakerDescription": "盛派开发者社区主创、Ant Design Blazor 贡献者，中国 DevOps 社区天津核心组织者，热衷分享可落地的新技术。",
+        "speakerDescription": "在职软件工程师，微软 Insider Dev Tour China 、.NET Conf China 云原生专场讲师，盛派开发者社区主创人员，Ant Design Blazor 社区贡献者，中国 DevOps 社区理事会成员天津地区核心组织者，华为云云享专家，腾讯腾源会开源创新100人。首届 .NET Conf 黑客松北京赛区汗八里小队队长、.NET 20周年云原生开发挑战赛获奖团队选手。热衷于学习和分享可落地的新技术和新文化。目前致力于在国产化项目中实践新技术，并立志于将所习得的新技术和思想分享给更多开发者去解决实际问题。",
         "speakerGithub": "https://github.com/JaneConan",
+        "slideFileName": "NativeAOT-NewBreakThrough-dotnet9.pdf",
+        "introUrl": "https://mp.weixin.qq.com/s?__biz=MzA3NTU4NjY3Mw==&mid=2247498501&idx=2&sn=60ec2939addbabe560038d76eac427f7&chksm=9edf9a27324a70c50cc7dc984c687cfa992ebc663aad7875ccc8df983ccd3ad1d95b5657ccfd&scene=126&sessionid=1730733550#rd",
         "recordingUrl": "https://www.bilibili.com/video/BV1QExNexEX6/",
-        "links": [
-            {
-                "title": "活动介绍",
-                "url": "https://mp.weixin.qq.com/s?__biz=MzA3NTU4NjY3Mw==&mid=2247498501&idx=2&sn=60ec2939addbabe560038d76eac427f7&chksm=9edf9a27324a70c50cc7dc984c687cfa992ebc663aad7875ccc8df983ccd3ad1d95b5657ccfd&scene=126&sessionid=1730733550#rd"
-            },
-            {
-                "title": "PPT",
-                "url": "https://github.com/dotnet-chinese-community/dotnet-talks/blob/main/2024/2024-09-25/NativeAOT-NewBreakThrough-dotnet9.pdf"
-            }
-        ],
         "tags": [
             ".NET 9",
             "Native AOT",
@@ -105,20 +78,14 @@
     },
     {
         "topic": ".NET 9 分布式 Web 全栈开发",
-        "description": "介绍 Blazor WebApp 与 .NET Aspire 在 .NET 9 下的分布式全栈能力，展示如何构建跨平台 Web 解决方案。",
+        "description": "自 .NET 8 发布以来，Blazor 全面升级为拥有全栈能力的 Blazor WebApp，替代传统的 MVC 和 Razor Pages 成为 .NET 平台主要推荐的 Web 框架。而当时预览发布的云原生开发框架 .NET Aspire 也在今年不断更新，现已发布生产可用的正式版。这两者都将在 .NET 9 继续发挥 Web 全栈、分布式、全平台的生产力优势。",
         "date": "2024-09-28",
         "speakerName": "杨舜杰",
-        "speakerTitle": "微软最有价值专家",
+        "speakerTitle": "微软最有价值专家， AntDesign Blazor 组件库作者， Blazor 中文社区发起人",
         "speakerAvatar": "images/speakers/yangshunjie.jpg",
-        "speakerDescription": "AntDesign Blazor 组件库作者，Blazor 中文社区发起人，专注于 Web 全栈与分布式开发。",
         "speakerGithub": "https://github.com/ElderJames",
+        "introUrl": "https://mp.weixin.qq.com/s?__biz=MzA3NTU4NjY3Mw==&mid=2247498511&idx=1&sn=15ce2c92ee5f862a74cad9f292c7872b&chksm=9edcfb1583189f3aa6788d5e6c737744b2bec136ab23795035463f52e9898cb8a04f20f2fa38&scene=126&sessionid=1730735332#rd",
         "recordingUrl": "https://www.bilibili.com/video/BV1BgxreBE1f/",
-        "links": [
-            {
-                "title": "活动介绍",
-                "url": "https://mp.weixin.qq.com/s?__biz=MzA3NTU4NjY3Mw==&mid=2247498511&idx=1&sn=15ce2c92ee5f862a74cad9f292c7872b&chksm=9edcfb1583189f3aa6788d5e6c737744b2bec136ab23795035463f52e9898cb8a04f20f2fa38&scene=126&sessionid=1730735332#rd"
-            }
-        ],
         "tags": [
             ".NET 9",
             "Blazor",
@@ -127,24 +94,15 @@
     },
     {
         "topic": ".NET 9 客户端应用技术新特性",
-        "description": "聚焦 .NET 9 在 .NET MAUI、WPF、WinForms 等客户端技术的新特性与开发者体验提升。",
+        "description": "随着 .NET 每年的高速迭代，桌面客户端应用技术从 Only windows 到跨平台都发生了不小的变化，这次 .NET9 的发布也带来了不少新的特性。.NET MAUI、WPF、Winforms 应用技术的新特性。",
         "date": "2024-10-28",
         "speakerName": "朱震",
-        "speakerTitle": "微软最有价值专家，GeneralUpdate 开源项目作者",
+        "speakerTitle": "微软最有价值专家，GeneralUpdate开源项目作者",
         "speakerAvatar": "images/speakers/zhuzhen.jpg",
-        "speakerDescription": "长期深耕 .NET 客户端技术，关注多平台应用的工程效率与质量。",
         "speakerGithub": "https://github.com/JusterZhu",
+        "slideFileName": "客户端应用技术新特性.pdf",
+        "introUrl": "https://mp.weixin.qq.com/s?__biz=MzA3NTU4NjY3Mw==&mid=2247498780&idx=1&sn=ef43ffe9230c27c784ab22c6d687800b&chksm=9e4556cadd8e3e577f249064cc01cff465138f57db6d249d446b0087c3b3f60126dabe453b48&scene=126&sessionid=1730736586#rd",
         "recordingUrl": "https://www.bilibili.com/video/BV1RoSvYsEjv/",
-        "links": [
-            {
-                "title": "活动介绍",
-                "url": "https://mp.weixin.qq.com/s?__biz=MzA3NTU4NjY3Mw==&mid=2247498780&idx=1&sn=ef43ffe9230c27c784ab22c6d687800b&chksm=9e4556cadd8e3e577f249064cc01cff465138f57db6d249d446b0087c3b3f60126dabe453b48&scene=126&sessionid=1730736586#rd"
-            },
-            {
-                "title": "PPT",
-                "url": "https://github.com/dotnet-chinese-community/dotnet-talks/blob/main/2024/2024-10-28/%E5%AE%A2%E6%88%B7%E7%AB%AF%E5%BA%94%E7%94%A8%E6%8A%80%E6%9C%AF%E6%96%B0%E7%89%B9%E6%80%A7.pdf"
-            }
-        ],
         "tags": [
             ".NET 9",
             ".NET MAUI",
@@ -153,20 +111,14 @@
     },
     {
         "topic": "实战 Avalonia Headless 测试",
-        "description": "展示如何借助 Avalonia Headless 平台为 UI 交互编写功能性测试，提升跨平台客户端的可靠性。",
+        "description": "在 Avalonia 中，我们可以在不实际运行应用的情况下，利用 Avalonia Headless 平台对部分涉及交互的功能进行功能性测试，这有助于我们进一步提升应用的健壮性。",
         "date": "2024-11-05",
         "speakerName": "董彬",
         "speakerTitle": "微软 MVP，Avalonia 中文社区主理人，Ursa 开源项目作者",
         "speakerAvatar": "images/speakers/dongbin.jpg",
-        "speakerDescription": "长期推动 Avalonia 社区建设，专注跨平台 UI 工程实践。",
         "speakerGithub": "https://github.com/rabbitism",
+        "introUrl": "https://mp.weixin.qq.com/s/DPHCjK5jB7Qeihoj2NpQkA",
         "recordingUrl": "https://www.bilibili.com/video/BV1vfDRYUE7u/",
-        "links": [
-            {
-                "title": "活动介绍",
-                "url": "https://mp.weixin.qq.com/s/DPHCjK5jB7Qeihoj2NpQkA"
-            }
-        ],
         "tags": [
             "Avalonia",
             "Testing",
@@ -175,19 +127,16 @@
     },
     {
         "topic": ".NET Talks - .NET AI 模板脚手架：加速 MCP 开发的利器",
-        "description": "解析微软 .NET AI 模板如何简化 MCP 与 AI 应用开发，覆盖搭建流程、最佳实践与模板新特性。",
+        "description": "微软推出的 .NET AI 模板，为开发者打造了一套高效的脚手架工具，旨在大幅简化 AI 应用与 MCP 的开发流程。无论是快速构建基础 AI 原型，还是将 MCP 深度集成到 .NET 应用中，开发者都能借助该模板减少重复工作，专注于核心业务逻辑，从而显著提升开发效率。最新版本在原有基础上进一步优化了模板细节，更好地契合实际开发场景，为 .NET 开发者进军 AI 领域提供了一个高效、便捷且可拓展的起点。",
         "date": "2025-08-18",
         "speakerName": "姚圣伟",
-        "speakerTitle": "微软 MVP，Avalonia 中文社区主理人，Ursa 开源项目作者",
+        "speakerTitle": "在职开发者",
         "speakerAvatar": "images/speakers/yaoshengwei.jpg",
-        "speakerDescription": "热衷于国产化场景与新技术推广，活跃在云原生与桌面技术社区。",
+        "speakerDescription": "在职开发者，盛派开发者社区主创人员，AntDesignBlazor 社区贡献者，中国 DevOps 社区理事会成员天津地区核心组织者，华为云云享专家，腾讯腾源会开源创新100人，MSBuildTour2019 北京场分享嘉宾，2023 dotnetConfChina 云原生专场讲师。首届 .NET Conf 黑客松北京赛区汗八里小队队长、.NET 20 周年云原生开发挑战赛获奖团队选手。 热衷于学习和分享可落地的新技术和新文化。目前致力于在国产化项目中实践新技术，并立志于将所习得的新技术和思想分享给更多开发者去解决实际问题。",
         "speakerGithub": "https://github.com/JaneConan",
+        "introUrl": "https://mp.weixin.qq.com/s/CKh9t2Ag7Ouzagax_ns9oA",
         "recordingUrl": "https://www.bilibili.com/video/BV17keMzxE6v/",
         "links": [
-            {
-                "title": "活动介绍",
-                "url": "https://mp.weixin.qq.com/s/CKh9t2Ag7Ouzagax_ns9oA"
-            },
             {
                 "title": "视频回放 P2",
                 "url": "https://www.bilibili.com/video/BV1CnYXzsECG/"
@@ -205,20 +154,16 @@
     },
     {
         "topic": ".NET Talks - .NET + AI 技术全景解密",
-        "description": "系统解读“.NET + AI”技术全景，聚焦 .NET 10 “AI Ready” 平台，串起从 Semantic Kernel、Microsoft.Extensions.AI 到 Microsoft Agent Framework 的演进路径，并结合简单示例，帮助大家快速理解核心概念，掌握在 .NET 体系下构建 AI 应用与智能体的关键思路。",
+        "description": "随着大模型能力不断演进，软件架构正从“功能驱动”走向“智能体驱动”。Function Calling、MCP、A2A 等协议正在重塑应用与模型的交互方式，使 AI 从“聊天工具”升级为真正可调度系统能力的核心引擎，圣洁为我们系统解读“.NET + AI”技术全景，聚焦 .NET 10 “AI Ready” 平台，串起从 Semantic Kernel、Microsoft.Extensions.AI 到 Microsoft Agent Framework 的演进路径，并结合简单示例，帮助大家快速理解核心概念，掌握在 .NET 体系下构建 AI 应用与智能体的关键思路。",
         "date": "2025-12-18",
         "speakerName": "颜圣杰",
         "speakerTitle": "微软最有价值专家，.NET 架构师",
-        "speakerAvatar": "images/speakers/yaoshengwei.jpg",
+        "speakerAvatar": "images/speakers/yanshengjie.jpg",
         "speakerDescription": "微软最有价值专家，.NET 架构师，.NET Conf China 讲师，『.NET+AI』系列课程作者。",
         "speakerGithub": "https://github.com/sheng-jie",
+        "slideFileName": "dotnet-AI技术全景解密.pdf",
+        "introUrl": "https://mp.weixin.qq.com/s/Dm2HK0WJMrFZmz_BESksKQ",
         "recordingUrl": "https://www.bilibili.com/video/BV143BQBnEL8/",
-        "links": [
-            {
-                "title": "活动介绍",
-                "url": "https://mp.weixin.qq.com/s/Dm2HK0WJMrFZmz_BESksKQ"
-            }
-        ],
         "tags": [
             ".NET AI",
             "MCP",
@@ -228,21 +173,17 @@
         ]
     },
     {
-        "topic": ".NET Talks - .NET + AI 技术全景解密",
-        "description": "Microsoft Agent Framework 正式 GA，.NET Agent 落地正当时. Microsoft Agent Framework .NET 1.0.0 的发布，不只是一次 GA，更是微软对 Agent 开发方向的明确统一：将过去分散在 Semantic Kernel、AutoGen 等体系中的能力，收敛为一套统一的开发底座。随着 Agent Skills 能力的补齐，Agent 从“依赖 Prompt 的临时能力”升级为可复用、可审计、可按需加载的模块化体系，并支持渐进式披露，从根本上提升了上下文管理能力与团队协作效率",
+        "topic": "Microsoft Agent Framework 正式 GA，.NET Agent 落地正当时",
+        "description": "Microsoft Agent Framework 正式 GA，.NET Agent 落地正当时 Microsoft Agent Framework .NET 1.0.0 的发布，不只是一次 GA，更是微软对 Agent 开发方向的明确统一：将过去分散在 Semantic Kernel、AutoGen 等体系中的能力，收敛为一套统一的开发底座。随着 Agent Skills 能力的补齐，Agent 从“依赖 Prompt 的临时能力”升级为可复用、可审计、可按需加载的模块化体系，并支持渐进式披露，从根本上提升了上下文管理能力与团队协作效率。新一期 .NET Talks 将围绕 Agents + Workflows + Skills 这一工程骨架展开，深入解析：为什么清晰的边界与抽象更稳定，Workflow 如何将不确定任务转化为可控流程（如 checkpoint、human-in-the-loop、可恢复机制），以及这对 .NET 开发者的启示——未来的核心竞争力，将不再是提示词技巧，而是状态治理、流程控制、工具约束与系统可演进能力。",
         "date": "2026-04-22",
         "speakerName": "颜圣杰",
         "speakerTitle": "微软最有价值专家，.NET 架构师",
-        "speakerAvatar": "images/speakers/yaoshengwei.jpg",
+        "speakerAvatar": "images/speakers/yanshengjie.jpg",
         "speakerDescription": "微软最有价值专家，.NET 架构师，.NET Conf China 讲师，『.NET+AI』系列课程作者",
         "speakerGithub": "https://github.com/sheng-jie",
+        "slideFileName": "maf-v1.0-shengjie.pdf",
+        "introUrl": "https://mp.weixin.qq.com/s/Hz3oVrtixueEEMIxP_mbdA",
         "recordingUrl": "https://www.bilibili.com/video/BV1s6ofBJEV2/",
-        "links": [
-            {
-                "title": "活动介绍",
-                "url": "https://mp.weixin.qq.com/s/Hz3oVrtixueEEMIxP_mbdA"
-            }
-        ],
         "tags": [
             ".NET AI",
             "AI",

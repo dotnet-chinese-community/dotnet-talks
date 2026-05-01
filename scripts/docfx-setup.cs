@@ -38,7 +38,14 @@ static void ReadmeToIndex(string folder)
 {
     var readmePath = Path.Combine(folder, "README.md");
     var indexPath = Path.Combine(folder, "index.md");
-    if (File.Exists(readmePath) && !File.Exists(indexPath))
+
+    if (File.Exists(indexPath))
+    {
+        Console.WriteLine($"Index file already exists, skipping: {indexPath}");
+        return;
+    }
+
+    if (File.Exists(readmePath))
     {
         File.Move(readmePath, indexPath);
     }

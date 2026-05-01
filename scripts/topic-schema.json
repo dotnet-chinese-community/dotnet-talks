@@ -49,13 +49,21 @@
       "format": "uri",
       "nullable": true
     },
+    "slideFileName": {
+      "type": "string",
+      "nullable": true
+    },
+    "introUrl": {
+      "type": "string",
+      "format": "uri"
+    },
     "recordingUrl": {
       "type": "string",
       "format": "uri"
     },
     "links": {
       "type": "array",
-      "minItems": 1,
+      "nullable": true,
       "items": {
         "type": "object",
         "required": ["title", "url"],
