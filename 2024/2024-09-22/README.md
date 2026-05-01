@@ -12,11 +12,17 @@
 
 主题：**拥抱 AI 的 .NET 9**
 
-在过去大数据、移动互联网时代。.NET 错过了两个时代，但是在云原生和人工智能时代，.NET已经完成脱胎换骨，变得开放又强大，特别是即将到来的 .NET 9，在帮助开发人员构建更智能的应用程序方面有非常大的改进。本次分享 .NET 社区这一年在 AI 方面的新进展。
+回顾 .NET 社区一年在 AI 领域的积累，展示 .NET 9 如何通过更开放的云原生与智能化能力帮助团队构建智能应用。
+
+## 标签
+
+- .NET 9
+- AI
+- Cloud Native
 
 ## 更多
 
 - [活动介绍](https://mp.weixin.qq.com/s?__biz=MzA3NTU4NjY3Mw==&mid=2247498474&idx=1&sn=0bb280750d3c162a233b84c9829172d5&chksm=9ef65b20c1281db42b12ebda8d2929d8da356f17ffbeccbed4b460ee5c755be7b5a48ddf7c8c&scene=126&sessionid=1730733550#rd)
 - [视频回放](https://www.bilibili.com/video/BV1X5shecEeE/)
-- [PPT](./AI-dotnet9.pdf)
 - [讲师 Github](https://github.com/geffzhang)
+- [PPT](./AI-dotnet9.pdf)

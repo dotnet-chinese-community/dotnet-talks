@@ -8,10 +8,16 @@
 
 微软最有价值专家， AntDesign Blazor 组件库作者， Blazor 中文社区发起人
 
+
 主题：**.NET 9 分布式 Web 全栈开发**
 
-自 .NET 8 发布以来，Blazor 全面升级为拥有全栈能力的 Blazor WebApp，替代传统的 MVC 和 Razor Pages 成为 .NET 平台主要推荐的 Web 框架。而当时预览发布的云原生开发框架 .NET Aspire 也在今年不断更新，现已发布生产可用的正式版。
-这两者都将在 .NET 9 继续发挥 Web 全栈、分布式、全平台的生产力优势。
+自 .NET 8 发布以来，Blazor 全面升级为拥有全栈能力的 Blazor WebApp，替代传统的 MVC 和 Razor Pages 成为 .NET 平台主要推荐的 Web 框架。而当时预览发布的云原生开发框架 .NET Aspire 也在今年不断更新，现已发布生产可用的正式版。这两者都将在 .NET 9 继续发挥 Web 全栈、分布式、全平台的生产力优势。
+
+## 标签
+
+- .NET 9
+- Blazor
+- .NET Aspire
 
 ## 更多
 

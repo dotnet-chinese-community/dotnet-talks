@@ -12,9 +12,17 @@ iHerb 软件开发工程师，微软 MVP
 
 主题：**.NET 9 随之而来的 C# 13 更新**
 
+梳理 C# 13 在语法、语言特性与开发体验上的提升，以及它们如何与 .NET 9 协作提升生产力。
+
+## 标签
+
+- .NET 9
+- C# 13
+- Language Features
+
 ## 更多
 
 - [活动介绍](https://mp.weixin.qq.com/s?__biz=MzA3NTU4NjY3Mw==&mid=2247498501&idx=1&sn=dcd96845717a3043da6ddb2857e49472&chksm=9eed4f381bdec36c4d74200870ac1327e02282f3b299f82aa0cf7cbb091cbfcfb034dc469041&scene=126&sessionid=1730733550#rd)
 - [视频回放](https://www.bilibili.com/video/BV1PZsaeDEcx/)
-- [ppt](./CSharp13NewFeatures.pdf)
 - [讲师 Github](https://github.com/WeihanLi)
+- [PPT](./CSharp13NewFeatures.pdf)
