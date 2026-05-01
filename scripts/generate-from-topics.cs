@@ -48,6 +48,9 @@ if (selectedTopics.Length == 0)
 
 var generatedCount = 0;
 var skippedCount = 0;
+var yearReadmeGeneratedCount = 0;
+var yearReadmeUnchangedCount = 0;
+var selectedYears = new SortedSet<int>();
 
 foreach (var topic in selectedTopics)
 {
@@ -56,6 +59,8 @@ foreach (var topic in selectedTopics)
         Console.Error.WriteLine($"Invalid topic date '{topic.Date}' for topic '{topic.TopicTitle}'.");
         return 1;
     }
+
+    selectedYears.Add(date.Year);
 
     var topicDirectory = Path.Combine(repositoryRoot, date.Year.ToString(CultureInfo.InvariantCulture), topic.Date);
     if (!Directory.Exists(topicDirectory) && !options.DryRun)
@@ -82,7 +87,34 @@ foreach (var topic in selectedTopics)
     }
 }
 
-Console.WriteLine($"Done. Generated: {generatedCount}, skipped: {skippedCount}.");
+foreach (var year in selectedYears)
+{
+    var yearDirectory = Path.Combine(repositoryRoot, year.ToString(CultureInfo.InvariantCulture));
+    var yearReadmePath = Path.Combine(yearDirectory, "README.md");
+    var yearReadmeContent = RenderYearReadme(topics, year);
+
+    if (File.Exists(yearReadmePath))
+    {
+        var existingContent = await File.ReadAllTextAsync(yearReadmePath, Encoding.UTF8);
+        if (string.Equals(existingContent.ReplaceLineEndings("\n"), yearReadmeContent.ReplaceLineEndings("\n"), StringComparison.Ordinal))
+        {
+            Console.WriteLine($"Unchanged: {Path.GetRelativePath(repositoryRoot, yearReadmePath)}");
+            yearReadmeUnchangedCount++;
+            continue;
+        }
+    }
+
+    Console.WriteLine($"{(options.DryRun ? "Would write" : "Write")}: {Path.GetRelativePath(repositoryRoot, yearReadmePath)}");
+    yearReadmeGeneratedCount++;
+
+    if (!options.DryRun)
+    {
+        Directory.CreateDirectory(yearDirectory);
+        await File.WriteAllTextAsync(yearReadmePath, yearReadmeContent, new UTF8Encoding(encoderShouldEmitUTF8Identifier: false));
+    }
+}
+
+Console.WriteLine($"Done. Topic READMEs generated: {generatedCount}, skipped: {skippedCount}. Year READMEs generated: {yearReadmeGeneratedCount}, unchanged: {yearReadmeUnchangedCount}.");
 return 0;
 
 static string RenderReadme(string template, Topic topic, string topicDirectory, string repositoryRoot)
@@ -165,6 +197,36 @@ static string RenderLinks(Topic topic)
         .Select(link => $"- [{link.Title}]({link.Url})");
 
     return string.Join(Environment.NewLine, deduplicatedLinks);
+}
+
+static string RenderYearReadme(IEnumerable<Topic> topics, int year)
+{
+    var yearPrefix = year.ToString(CultureInfo.InvariantCulture) + "-";
+    var entries = topics
+        .Where(topic => topic.Date.StartsWith(yearPrefix, StringComparison.Ordinal))
+        .Select(topic =>
+        {
+            if (!DateOnly.TryParseExact(topic.Date, "yyyy-MM-dd", CultureInfo.InvariantCulture, DateTimeStyles.None, out var date))
+            {
+                throw new InvalidOperationException($"Invalid topic date '{topic.Date}' for topic '{topic.TopicTitle}'.");
+            }
+
+            return (Topic: topic, Date: date);
+        })
+        .Where(entry => entry.Date.Year == year)
+        .OrderBy(entry => entry.Date)
+        .Select(entry => $"- [{entry.Topic.Date}](./{entry.Topic.Date}/)");
+
+    var builder = new StringBuilder();
+    builder.AppendLine($"# {year}");
+    builder.AppendLine();
+
+    foreach (var entry in entries)
+    {
+        builder.AppendLine(entry);
+    }
+
+    return builder.ToString().TrimEnd().ReplaceLineEndings(Environment.NewLine) + Environment.NewLine;
 }
 
 static string NormalizeMarkdownParagraph(string? value)
@@ -262,12 +324,12 @@ sealed record GeneratorOptions(string TopicsPath, string TemplatePath, string? D
     {
         Console.WriteLine("""
         Usage:
-          dotnet scripts/generate-topic-readmes.cs -- [options]
+          dotnet scripts/generate-from-topics.cs -- [options]
 
         Examples:
-          dotnet scripts/generate-topic-readmes.cs -- --dry-run
-          dotnet scripts/generate-topic-readmes.cs -- --force
-          dotnet scripts/generate-topic-readmes.cs -- --date 2026-04-22 --force
+          dotnet scripts/generate-from-topics.cs -- --dry-run
+          dotnet scripts/generate-from-topics.cs -- --force
+          dotnet scripts/generate-from-topics.cs -- --date 2026-04-22 --force
 
         Options:
           --topics <path>     Topics JSON path. Defaults to topics.json.
