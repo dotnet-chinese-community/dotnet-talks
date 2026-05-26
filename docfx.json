@@ -13,6 +13,7 @@
     "resource": [
       {
         "files": [
+          "topics.json",
           "images/**",
           "**/*.pdf"
         ]
