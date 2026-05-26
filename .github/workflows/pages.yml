@@ -22,15 +22,11 @@ jobs:
         uses: actions/setup-dotnet@v5
         with:
           dotnet-version: "10.0.x"
-      - name: install tools
-        run: |
-          dotnet tool install -g docfx
-          dotnet tool list -g
       - name: pre-docfx
         run: |
           dotnet ./scripts/docfx-setup.cs
       - name: Build docs
-        run: "docfx ./docfx.json"
+        run: "dnx -y docfx ./docfx.json"
       - name: cloudflare-pages
         uses: cloudflare/wrangler-action@v3
         with:
