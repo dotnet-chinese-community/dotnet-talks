@@ -193,5 +193,35 @@
             "Workflows",
             "Microsoft Agent Framework"
         ]
+    },
+    {
+        "topic": "AI Builder Talks｜构建面向 .NET 的 NativeAOT 友好的智能体运行时",
+        "description": "聚焦 OpenClaw.NET 这一 .NET 生态最新实现，深入解析 OpenClaw.NET 的整体架构与设计理念，围绕 NativeAOT、智能体运行时、多模型 Provider、MCP 工具生态、OpenTelemetry 可观测性及生产部署等内容展开，并通过现场 Demo 演示如何快速构建一个高性能、可观测、可自托管的 AI Agent 系统，为 .NET 开发者带来从架构到实践的全面解析。",
+        "date": "2026-07-31",
+        "speakerName": "张善友",
+        "speakerTitle": "广州智用开物人工智能科技有限公司 CTO、微软最有价值专家(MVP)",
+        "speakerAvatar": "images/speakers/zhangshanyou.jpg",
+        "speakerDescription": "广州智用开物人工智能科技有限公司 CTO、微软最有价值专家(MVP)、腾讯云 TVP、华为云 HCDE",
+        "speakerGithub": "https://github.com/geffzhang",
+        "slideFileName": "构建NativeAOT友好的dotnet智能体运行时.pdf",
+        "introUrl": "https://developer.microsoft.com/zh-cn/reactor/events/27474",
+        "recordingUrl": "https://www.bilibili.com/video/BV1wRGA6jEcC/",
+        "links": [
+            {
+                "title": "OpenClaw.NET GitHub 仓库",
+                "url": "https://github.com/clawdotnet/openclaw.net"
+            },
+            {
+                "title": "博客园博客",
+                "url": "https://www.cnblogs.com/shanyou"
+            }
+        ],
+        "tags": [
+            ".NET AI",
+            "AI",
+            "Agents",
+            "OpenClaw",
+            "OpenClaw.NET"
+        ]
     }
 ]

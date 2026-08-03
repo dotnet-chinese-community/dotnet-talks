@@ -16,7 +16,7 @@ Microsoft Agent Framework 正式 GA，.NET Agent 落地正当时 Microsoft Agent
 
 ## 标签
 
-- .NET+AI
+- .NET AI
 - AI
 - MCP
 - Skills
