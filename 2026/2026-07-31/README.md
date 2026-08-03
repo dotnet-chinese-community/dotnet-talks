@@ -27,6 +27,6 @@
 - [活动介绍](https://developer.microsoft.com/zh-cn/reactor/events/27474)
 - [视频回放](https://www.bilibili.com/video/BV1wRGA6jEcC/)
 - [讲师 Github](https://github.com/geffzhang)
-- [PPT](./构建NativeAOT友好的dotnet智能体运行时.pdf)
+- [PPT](./Build-dotnet-oriented-NativeAOT-Friendly-AI-Agent-Runtime.pdf)
 - [OpenClaw.NET GitHub 仓库](https://github.com/clawdotnet/openclaw.net)
 - [博客园博客](https://www.cnblogs.com/shanyou)

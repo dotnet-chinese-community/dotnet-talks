@@ -203,7 +203,7 @@
         "speakerAvatar": "images/speakers/zhangshanyou.jpg",
         "speakerDescription": "广州智用开物人工智能科技有限公司 CTO、微软最有价值专家(MVP)、腾讯云 TVP、华为云 HCDE",
         "speakerGithub": "https://github.com/geffzhang",
-        "slideFileName": "构建NativeAOT友好的dotnet智能体运行时.pdf",
+        "slideFileName": "Build-dotnet-oriented-NativeAOT-Friendly-AI-Agent-Runtime.pdf",
         "introUrl": "https://developer.microsoft.com/zh-cn/reactor/events/27474",
         "recordingUrl": "https://www.bilibili.com/video/BV1wRGA6jEcC/",
         "links": [
